@@ -1,9 +1,10 @@
-syncBin
-=======
+sync-bin
+========
 
 NodeJS file directory synchronization via http. Done with express and request modules.
 
 ## Cloud Installation
+
 Install the module on your project:
 
 ```
@@ -36,9 +37,8 @@ sync.get('files/from','files/to',function(dir){
 ```
 
 ## Configuration
-Customize the configuration to specify the correct routes:
 
-Hooks are used to collect data for emails:
+Customize the configuration to specify the correct routes:
 
 ```javascript
 {
