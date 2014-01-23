@@ -1,0 +1,28 @@
+{
+  "name": "sync-bin",
+  "version": "0.0.2",
+  "description": "An easy way to sync files from remote dir via http",
+  "author": {
+    "name": "Albert Vila Picas",
+    "email": "albertvilapicas@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "sync",
+    "files",
+    "http"
+  ],
+  "main": "./main",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "express": "*",
+    "request": "*"
+  },
+  "readmeFilename": "README.md",
+  "_id": "sync-bin@0.0.2"
+}
